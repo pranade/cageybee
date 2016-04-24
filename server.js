@@ -4,14 +4,14 @@ var path = require('path');
 
 app.get('/', function (req, res) {
   console.log(path.join(__dirname,''));
-  console.log(path.join(__dirname,'/hello-monkey.xml'));
-  res.sendFile(path.join(__dirname,'/hello-monkey.xml'));
+  console.log(path.join(__dirname,'/hellomonkey.xml'));
+  res.sendFile(path.join(__dirname,'/hellomonkey.xml'));
   //res.send('Ready for action...');
 });
 
 app.get('/callmemaybe', function (req, res) {
   console.log("Calling me... maybe");
-  res.sendFile(path.join(__dirname,'/hello-monkey.xml'));
+  res.sendFile(path.join(__dirname,'/hellomonkey.xml'));
 });
 
 app.listen(3000, function () {
