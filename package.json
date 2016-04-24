@@ -1,0 +1,24 @@
+{
+  "name": "cageybee",
+  "version": "1.0.0",
+  "description": "notes_recorder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranade/cageybee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranade/cageybee/issues"
+  },
+  "homepage": "https://github.com/pranade/cageybee#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "twilio": "^2.9.1"
+  }
+}
