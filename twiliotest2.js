@@ -3,7 +3,8 @@ var authToken = "047443e3d27230482becadaa3ff69585";
 var client = require('twilio')(accountSid, authToken);
  
 client.calls.create({
-    url: 'http://ba789785.ngrok.io/', // Was localhost:3000, now exposing localhost:3000 to public internet via ngrok
+    //url: 'http://ba789785.ngrok.io/', // Was localhost:3000, now exposing localhost:3000 to public internet via ngrok
+    url: 'https://demo.twilio.com/docs/voice.xml',
     to: '+19176573289',
     from: '+16505626104',
     method: 'GET'
