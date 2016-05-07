@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Say voice="man" language="en">This is Jason Bourne...I'm coming for you.</Say>
+    <Say voice="woman" language="en">Welcome to KGB. You may start recording now. Press # when you are finished.</Say>
+     <Record
+        action='http://30df94c2.ngrok.io/record-notes.php'
+        method="GET"
+        finishOnKey="#"
+        maxLength="60"
+        />
 </Response>

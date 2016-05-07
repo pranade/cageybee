@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say voice="woman" language="en">Start recording. Press pound when you're finished.</Say>
+     <Record
+        action='http://30df94c2.ngrok.io/record-notes.xml'
+        method="GET"
+        finishOnKey="#"
+        maxLength="60"
+        />
+</Response>
