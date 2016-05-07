@@ -2,7 +2,7 @@
 <Response>
     <Say voice="woman" language="en">Start recording. Press pound when you're finished.</Say>
      <Record
-        action='http://30df94c2.ngrok.io/record-notes.xml'
+        action='http://b3be142e.ngrok.io/finishedrecording'
         method="GET"
         finishOnKey="#"
         maxLength="60"

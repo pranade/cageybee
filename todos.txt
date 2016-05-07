@@ -1,0 +1,15 @@
+- Programmatically get URL of audio file saved by Twilio (maverick)
+- Set up Amazon S3 account for cloud storage (maverick)
+- Save retrieved audio file from Twilio to S3 (maverick)
+- Install nodemailer (npm) (helo)
+- Use nodemailer to send email with transcribed file to user email address (helo)
+- Create form to get user email (helo)
+- Set up PostGres SQL DB (maverick)
+- Set up a heroku VM (maverick)
+- CSS day! (make it pretty) (joint)
+
+
+Callback structure (high level)
+- f(start recording)
+-- callback(send audio file to transcriber)
+---- callback (send text transcription to email address)

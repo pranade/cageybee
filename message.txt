@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "timestamps": [
+            [
+              "think",
+              0.19,
+              0.41
+            ],
+            [
+              "China",
+              0.41,
+              0.96
+            ],
+            [
+              "I",
+              1.02,
+              1.12
+            ],
+            [
+              "think",
+              1.12,
+              1.45
+            ],
+            [
+              "China's",
+              1.45,
+              1.85
+            ]
+          ],
+          "confidence": 0.719,
+          "transcript": "think China I think China's "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0
+}

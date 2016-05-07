@@ -22,7 +22,7 @@ var speech_to_text = watson.speech_to_text({
     var recognizeStream = speech_to_text.createRecognizeStream(params);
 
     // pipe in some audio
-    fs.createReadStream('test.wav').pipe(recognizeStream);
+    fs.createReadStream('recording.wav').pipe(recognizeStream);
 
     // Pipe out the transcription.
     recognizeStream.pipe(fs.createWriteStream('transcription.txt'));
